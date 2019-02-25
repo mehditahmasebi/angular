@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "label": "نام و نام خانوادگی",
+      "allowMultipleMasks": false,
+      "showWordCount": false,
+      "showCharCount": false,
+      "tableView": true,
+      "alwaysEnabled": false,
+      "type": "textfield",
+      "input": true,
+      "key": "نامونامخانوادگی",
+      "validate": {
+        "required": true,
+        "customMessage": "",
+        "json": ""
+      }
+    },
+    {
+      "label": "Email",
+      "tableView": true,
+      "alwaysEnabled": false,
+      "type": "email",
+      "input": true,
+      "key": "email2",
+      "defaultValue": "",
+      "validate": {
+        "required": true,
+        "customMessage": "",
+        "json": ""
+      },
+      "encrypted": false
+    },
+    {
+      "label": "Number",
+      "mask": false,
+      "tableView": true,
+      "alwaysEnabled": false,
+      "type": "number",
+      "input": true,
+      "key": "number2"
+    },
+    {
+      "type": "button",
+      "label": "Submit",
+      "key": "submit",
+      "disableOnInvalid": true,
+      "theme": "primary",
+      "input": true,
+      "tableView": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<formio [form]="formJson" (change)="onChange($event)" (submit)="onSubmit($event)" (beforeSubmit)="beforeSubmit()" [refresh]="refreshForm"></formio>
+<div class="well jsonviewer">
+  <pre id="json"><code class="language-json" #json>{{dataOutput | json}}</code></pre>
+</div>
+<button (click)="angularButton()">Custom Button</button>
